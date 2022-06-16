@@ -4,4 +4,4 @@ class Solution:
         ans = [None] * len(words)
         for word in words:
             ans[int(word[-1]) - 1] = word[: -1]
-        return " ".join(ans)
+        return ' '.join(ans)
