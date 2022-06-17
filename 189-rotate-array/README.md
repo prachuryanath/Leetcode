@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/rotate-array/">189. Rotate Array</a></h2><h3>Medium</h3><hr><div><p>Given an array, rotate the array to the right by <code>k</code> steps, where <code>k</code> is non-negative.</p>
+<h2><a href="https://leetcode.com/problems/rotate-array/solution/">189. Rotate Array</a></h2><h3>Medium</h3><hr><div><p>Given an array, rotate the array to the right by <code>k</code> steps, where <code>k</code> is non-negative.</p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
