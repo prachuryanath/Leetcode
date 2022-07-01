@@ -1,8 +1,13 @@
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
-        count = 0
-        for num in grid:
-          for number in num:
-            if number < 0:
-              count += 1
-        return count
+      return sum([self.binarySearch(arr) for arr in grid])
+      
+    def binarySearch(self,arr):
+      l, r = 0, len(arr)-1
+      while l<=r:
+        mid = (l+r)//2
+        if arr[mid] < 0:
+          r = mid-1
+        else:
+          l = mid+1
+      return len(arr) - l
