@@ -10,7 +10,7 @@ class Solution:
       def dfs(root,p,q):
         if(root is None):
           return None
-        if((root is p) or (root is q)):
+        if((root == p) or (root is q)):
           return root
         l=dfs(root.left,p,q) 
         r=dfs(root.right,p,q)
